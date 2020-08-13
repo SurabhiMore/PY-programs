@@ -267,7 +267,7 @@ for tag in tags:
 print(sum(lst))
 print('END')
 
-# 12.2 Assignment chu..........
+# 12.2 Assignment *****
 from bs4 import BeautifulSoup
 import urllib.request
 url = input('Enter URL:')

@@ -47,7 +47,7 @@ while True:
     no = input('Enter no : ')
     if no == 'done':
         break
-    try:                #to avoid Traceback
+    try:                # to avoid Traceback
         n = int(no)
     except:
         print('Invalid input')
