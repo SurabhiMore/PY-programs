@@ -1,9 +1,9 @@
-# Google API: using json and urllib.........REFER ASSIGNMENT 13.3
+# Google API(Application Programming Interface): using json and urllib.........REFER ASSIGNMENT 13.3
 
 # CODE EXAMPLE
 import urllib.request, urllib.parse, urllib.error
 import json
-import ssl
+import ssl   #(Secure Sockets Layer)
 
 api_key = False
 # If you have a Google Places API key, enter it here
