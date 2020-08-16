@@ -1,0 +1,2 @@
+# PY-programs
+Python codes: From Basic to Complex. A collection of programs in Python using various Datastructures, python Libraries/Modules and Logic. This includes python basics, Web scrapping, Database management and Data visualization. It also covers few Assignments and I'll be adding Capstone projects on Retrieving, Processing, and Visualizing Data. The project is majorly for personal use and the comments are for better understanding, you can go through the programs and feel free to highlight any problem found. Hope you find it of any use!  
