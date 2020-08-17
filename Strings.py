@@ -29,8 +29,8 @@ print(greet.lower())
 print('Guddu'.lower())
 
 # find()
-print(greet.find('u'))
-print(greet.find('z'))
+print(greet.find('u'))   # first 'u' in the string
+print(greet.find('a'))   # if not in string then it returns value -1
 
 # replace()
 print(greet.replace('Guddu','Surabhi'))

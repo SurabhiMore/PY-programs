@@ -1,4 +1,4 @@
-# Python's xml package - ElementTree module (XML processor API)
+# Python's xml package - ElementTree module - reads and manipulates(parses) XML(eXtensible Maarkup Language-used in webpages where data has specific srtucture)
 
 import xml.etree.ElementTree as ET
 data = ''' 

@@ -81,7 +81,7 @@ print('Minimum is', smallest)
 
 # OR
 
-# mast!
+# most preffered!
 l = []
 while True:
     numbers = input('Enter number : ')
@@ -237,7 +237,7 @@ print('END')
 l = []
 h = open('regex_actual')
 for i in h:
-    lt = re.findall("[0-9]",i)
+    lt = re.findall("[0-9]+",i)
     for v in lt:
         l.append(int(v))
 print(sum(l))

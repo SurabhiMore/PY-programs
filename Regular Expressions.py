@@ -1,3 +1,4 @@
+# (Regex)
 # re.search() ~ find() in string
 
 import re
@@ -8,7 +9,7 @@ for line in fh:
         print(line)
 print('DONE!')
 
-# re.findall() ~ combn. of find() & slicing
+# re.findall() ~ combn. of find() & slicing (returns a list)
 
 import re
 str = 'My 2 favourite numbers are 2 and 12.'

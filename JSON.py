@@ -1,4 +1,4 @@
-# json module
+# json module (JavaScript Object Notation)
 # parsing JSON string by using json.loads() method - Python dictionary or list
 
 import json
