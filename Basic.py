@@ -101,14 +101,6 @@ print(simple_interest(p,t,r))
 # Compound interest = p(1 + r/100)**t
 print('END')
 
-# Fibonacci sequence up to nth term (0, 1, 1, 2, 3, 5, 8, 13, 21, 34,....)
-n = int(input('How many terms? '))
-n1, n2 = 0, 1
-if n <= 0:
-    print('Enter positive integer')
-elif n == 1:
-    print('Fibonacci sequnce')
-
 # swapping variables
 a = 1
 b = 2
