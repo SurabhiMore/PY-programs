@@ -1,32 +1,16 @@
-# Question 1:-
+# nos. divisible by 5 and less than 150
 list1 = [12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 200]
 for n in list1:
     if n>150: break
     if n%5 == 0:
         print(n)
 
-# Question 2:-
-num = input('Enter number: ')
-count = 0
-for i in num:
-    count += 1
-print(count)
-# OR
-n = input('Enter number: ')
-print(len(n))
-
-# Question 3:-
+# Reversing a list
 list1 = [10, 20, 30, 40, 50]
 list1.reverse()
 print(list1)
 
-# Question 4:-
-list = [1, 2, 3, 4]
-for i in list:
-    print(i)
-print('Done')
-
-# Question 5:-          ******IMP*****
+# Pyramid
 for i in range(1, 6):
     for j in range(1, i + 1):
         print(j, end="")
@@ -36,7 +20,7 @@ for i in range(1, 6):
 num1 = int(input('Enter number: '))
 num2 = int(input('Enter number: '))
 add = num1 + num2
-print("Sum of {0} and {1} is {2}" .format(num1, num2, add))  # ***IMP***
+print("Sum of {0} and {1} is {2}" .format(num1, num2, add))
 print('END')
 
 # Prime number:

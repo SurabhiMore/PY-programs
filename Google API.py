@@ -3,7 +3,7 @@
 # CODE EXAMPLE
 import urllib.request, urllib.parse, urllib.error
 import json
-import ssl   # (Secure Sockets Layer)
+import ssl   # Secure Sockets Layer
 
 api_key = False
 # If you have a Google Places API key, enter it here

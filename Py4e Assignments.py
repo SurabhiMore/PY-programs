@@ -25,7 +25,7 @@ print('END')
 # < 0.6 F
 # If the user enters a value out of range, print a suitable error message and exit. For the test, enter a score of 0.85.
 
-# (* Without try & except)
+# (Without try & except)
 
 score = input("Enter score: ")
 scr = 0.0 <= float(score) <= 1.0
@@ -81,7 +81,7 @@ print('Minimum is', smallest)
 
 # OR
 
-# most preffered!
+# most preferred!
 l = []
 while True:
     numbers = input('Enter number : ')
@@ -110,12 +110,11 @@ print('END')
 # Convert the extracted value to a floating point number and print it out.
 
 text = "X-DSPAM-Confidence:    0.8475"
-a = text.find(':')    # gives the index of :
+a = text.find(':')    # gives the index of ":"
 number = text[a+4:]   # slicing
 print(float(number))
 print('END')
 
-# ************************************IMP*********************************************
 # 7.2 Write a program that prompts for a file name, then opens that file and reads through the file, looking for lines of the form:
 # X-DSPAM-Confidence:    0.8475
 # Count these lines and extract the floating point values from each of the lines and compute the average of those values and produce an output as shown below.
@@ -157,7 +156,7 @@ print('END')
 # From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
 # You will parse the From line using split() and print out the second word in the line (i.e. the entire address of the person who sent the message).
 # Then print out a count at the end.
-#Hint: make sure not to include the lines that start with 'From:'.
+# Hint: make sure not to include the lines that start with 'From:'.
 
 fread = open('mbox')
 count = 0
@@ -233,7 +232,7 @@ for l in fh:
             lst.append(int(n))
 print(sum(lst))
 print('END')
-# ***OR***
+# OR
 l = []
 h = open('regex_actual')
 for i in h:

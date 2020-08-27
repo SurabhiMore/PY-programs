@@ -18,11 +18,11 @@ import xml.etree.ElementTree as ET
 info = '''
 <stuff>
    <users>
-      <user x="2">             # first list element
+      <user x="2">             # first element
           <id>001</id>
           <name>Chuck</name>   
       </user>
-      <user x="7">             # second list element
+      <user x="7">             # second element
            <id>009</id>
            <name>Brent</name>
       </user>
@@ -30,9 +30,11 @@ info = '''
 </stuff>'''
 
 data = ET.fromstring(info)
+print(data) # element 'stuff' at (address)
 lst = data.findall('users/user')
+print(lst)  # two elements -  element 'user' at (address)
 print('User count:',len(lst))
-for user in lst:
+for user in lst:                            # "user" is the iterating variable
     print('Name:',user.find('name').text)
     print('Id:',user.find('id').text)
     print('Attribute:',user.get('x'))

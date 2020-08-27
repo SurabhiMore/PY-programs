@@ -8,16 +8,7 @@ while j < 5:
     j += 1
 print("Total of numbers 1 to 4:",total)
 
-# Addition of positive numbers
-l = [4,5,3,2]
-total = 0
-i = 0
-while i < len(l) and l[i] > 0:  # imp
-    total += l[i]
-    i += 1
-print("Total :",total)
-
-# for list in descending order only
+# Addition of positive numbers just before any negative one
 # Type 1
 l = [4,5,3,2,-1,-2]
 total = 0
@@ -26,10 +17,8 @@ while l[i] > 0:
     total += l[i]
     i += 1
 print("Total :",total)
-
-# For list in descending order only
-# using Break statement
 # Type 2
+# using Break statement
 l = [4,5,3,2,-1,-2]
 total = 0
 i = 0
@@ -45,7 +34,7 @@ while n > 0:
     print(n)   # 5,4,3,2,1
     n = n - 1
 print("done")
-print(n)       # last value i.e. 0 *****
+print(n)       # last value i.e. 0
 
 
 # Using break statement
@@ -57,7 +46,6 @@ while True:
 print("Done!")
 
 # Using continue & break statement
-# IMP
 while True:
     l = input("Type something - ")
     if l[0] == "#":
@@ -68,11 +56,10 @@ while True:
 print("Done!")
 
 fruit = 'grape'
-index = 0
-# IMP
-while index < len(fruit):
-    letter = fruit[index]
-    index += 1
-    print(letter)
+i = 0
+while i < len(fruit):
+    letter = fruit[i]
+    i += 1
+    print(letter)  # string characters
 
 

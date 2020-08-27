@@ -22,18 +22,18 @@ print('END')
 
 # String Library
 
-greet = 'Hello Guddu'
+greet = 'Hello there'
 
 # lower()
 print(greet.lower())
-print('Guddu'.lower())
+print('Hello'.lower())
 
 # find()
-print(greet.find('u'))   # first 'u' in the string
+print(greet.find('e'))   # first 'e' in the string
 print(greet.find('a'))   # if not in string then it returns value -1
 
 # replace()
-print(greet.replace('Guddu','Surabhi'))
+print(greet.replace('Hello','Hi'))
 
 # Stripping - removing whitespaces
 # .lstrip(), .rstrip(), strip()
@@ -48,7 +48,7 @@ print(dir(str))
 
 # Parsing & Extracting    **IMP**
 data = 'surabhi.pmore@gmail.com October 12'
-a = data.find(' ')
-date = data[a+1:]
+a = data.find(' ')  # returns index of space
+date = data[a+1:]   # slicing (gives the date)
 print(date)
 

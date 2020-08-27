@@ -61,7 +61,7 @@ frnds = ['Milly','Silly','Lilly']
 frnds.sort()
 print(frnds)
 
-# alternative for finding sum() & average of lists without for loop
+# alternative for finding sum() & average of lists without using loops
 lst = list(range(1,101))
 print('List :',lst)
 print('Maximum =',max(lst))

@@ -23,11 +23,9 @@ for frnd in frnds:
 print("Done!")
 
 # range(start,pseudo-end,skip)
-for i in range(3,0,-1):   #IMP
+for i in range(3,0,-1):   # IMP
     print(i)
 print('END')
-
-
 
 # compute all multiples of 3 & 5 that are less than 100
 total = 0
@@ -48,11 +46,11 @@ l = ["hey","hello","hi"]
 for i in range(len(l)):
     print(l[i])
 # OR
-for i in l:   # best alernative for above
+for i in l:   # best alternative for above
     print(i)
 print('END')
 
-# for list in *descending* order only(meaning, for numbers before a negative number)
+# for numbers before any negative number
 # sum of positive integers = 19
 l = [4,5,3,2,-1,-2,0,4,2]
 total = 0
@@ -95,7 +93,7 @@ print('Iterations =',len(l))
 print('END')
 
 # Summing & Average in a loop
-lst = [int(input('Enter number : ')) for n in range(int(input('Enter count : ')))] # BEST than before
+lst = [int(input('Enter number : ')) for n in range(int(input('Enter count : ')))] # using list comprehension
 print('List :',lst)
 sum = 0
 for i in lst:  # without using the sum() function
